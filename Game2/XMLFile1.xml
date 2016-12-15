@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+  <Wave ID ="enemy" health = "5" timecounter ="0" number_of_enemies ="10" firing ="false" path ="3" starting_x ="50" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="10" number_of_enemies ="5" firing ="false" path ="1" starting_x ="50" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="14" number_of_enemies ="5" firing ="false" path ="2" starting_x ="450" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="16" number_of_enemies ="1" firing ="true" path ="1" starting_x ="350" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="19" number_of_enemies ="5" firing ="false" path ="2" starting_x ="450" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="20" number_of_enemies ="5" firing ="false" path ="1" starting_x ="50" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="21" number_of_enemies ="1" firing ="true" path ="5" starting_x ="150" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="23" number_of_enemies ="10" firing ="true" path ="3" starting_x ="450" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="28" number_of_enemies ="5" firing ="true" path ="2" starting_x ="450" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="29" number_of_enemies ="5" firing ="false" path ="1" starting_x ="50" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="31" number_of_enemies ="5" firing ="false" path ="1" starting_x ="350" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="31" number_of_enemies ="5" firing ="false" path ="2" starting_x ="150" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="32" number_of_enemies ="5" firing ="false" path ="1" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="32" number_of_enemies ="6" firing ="true" path ="1" starting_x ="50" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="32" number_of_enemies ="1" firing ="true" path ="4" starting_x ="350" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="32" number_of_enemies ="4" firing ="true" path ="1" starting_x ="450" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="37" number_of_enemies ="1" firing ="true" path ="3" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="37" number_of_enemies ="6" firing ="true" path ="3" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="37" number_of_enemies ="6" firing ="true" path ="3" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="midboss" health = "100" timecounter ="43" number_of_enemies ="1" firing ="true" path ="midboss" starting_x ="350" starting_y ="-50" bullet_path ="midboss" bullet_attack ="midboss"> </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="63" number_of_enemies ="1" firing ="false" path ="5" starting_x ="150" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="63" number_of_enemies ="1" firing ="false" path ="4" starting_x ="350" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="66" number_of_enemies ="17" firing ="false" path ="-1" starting_x ="50" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="71" number_of_enemies ="1" firing ="false" path ="5" starting_x ="150" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "15" timecounter ="71" number_of_enemies ="1" firing ="false" path ="4" starting_x ="350" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="72" number_of_enemies ="5" firing ="true" path ="2" starting_x ="450" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="74" number_of_enemies ="1" firing ="true" path ="3" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="74" number_of_enemies ="5" firing ="true" path ="3" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="enemy" health = "5" timecounter ="74" number_of_enemies ="5" firing ="true" path ="3" starting_x ="250" starting_y ="-50" bullet_path ="TrackerPath" bullet_attack ="TrackerAttack" > </Wave>
+  <Wave ID ="boss" health = "100" timecounter ="77" number_of_enemies ="1" firing ="true" path ="boss" starting_x ="250" starting_y ="-50" repeat ="50" bullet_path ="tracker_path" bullet_attack ="boss" > </Wave>
+</Level>
