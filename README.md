@@ -5,7 +5,7 @@ Created by: Aaron Kwan, John Chen, Eric Chen, Nick Strazis.
 This was a semester long project and the result of the entire team.
 
 #Project Specification
-1. Project Name: BH-STG: Bullet Hell Shooting Game & Level Interpreter
+Project Name: BH-STG: Bullet Hell Shooting Game & Level Interpreter
 Final project is an important component in a software design class. You will complete the project in a team environment (each team will have max 4, min 3 students, with 5 or 2-person team per instructor’s permission or recommendation). The project is to provide a platform on which you can exercise software design and decision making on software architecture.
 For this semester, your team project will be to implement a bullet hell shooting game, and its level interpreter, inspired by an indie Japanese doujin game series: Touhou Project. A sample game play could be found here: https://www.youtube.com/watch?v=-tyPdlhMLFQ
 
