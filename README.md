@@ -93,6 +93,7 @@ don’t turn in a blank/black screen as your submission!
 2. Scores, power-ups (dropped by the enemies/bosses or when the player was killed), bombs, and other supportive systems.
 3. Specific trivial details that are unreasonable for you to follow, such as the exact angle/speed/amount/size- of-hitbox/shape of projectiles, length of time between enemies’ entries, movement speed of the player in both normal and slow speed mode, and so on. While the goal is to imitate the gameplay of Touhou, you are not required to actually measure the pixels on a grainy video.
 4. However, 10pts extra are available for the teams who are able to come very, very close to the original, which will be judged based on my game play experience only on the original game and yours. In another word, arts and music/sound do not count here yet.
+
 ##Project Deliverable 2: see Course Schedule for Due Date. (40pts)
 Requirements: The main objective of Deliverable 2 is to refactor, redesign and re-implement what you have done in Deliverable 1, with some new required features. You are not required to start all over and rewrite every single line of code of course, but the amount of work will depend on the design quality of your first deliverable. In addition to duplicate the game play in our sample game play video, the new requirements for Deliverable 2 are listed below.
 I. The key features required are:
