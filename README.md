@@ -2,7 +2,8 @@
 
 Created by: Aaron Kwan, John Chen, Eric Chen, Nick Strazis.
 
-This was a semester long project.
+This was a semester long project and the result of the entire team.
+
 #Project Specification
 1. Project Name: BH-STG: Bullet Hell Shooting Game & Level Interpreter
 Final project is an important component in a software design class. You will complete the project in a team environment (each team will have max 4, min 3 students, with 5 or 2-person team per instructor’s permission or recommendation). The project is to provide a platform on which you can exercise software design and decision making on software architecture.
@@ -97,7 +98,7 @@ don’t turn in a blank/black screen as your submission!
 ##Project Deliverable 2: see Course Schedule for Due Date. (40pts)
 Requirements: The main objective of Deliverable 2 is to refactor, redesign and re-implement what you have done in Deliverable 1, with some new required features. You are not required to start all over and rewrite every single line of code of course, but the amount of work will depend on the design quality of your first deliverable. In addition to duplicate the game play in our sample game play video, the new requirements for Deliverable 2 are listed below.
 
-* I. The key features required are:
+* The key features required are:
 1. The hitboxes shall be in place and collision detection shall be functional to allow regular game play.
 (10pts)
 a) The player should be able to fire projectiles and damage/kill enemies and bosses using the keyboard, and the player should be able to be killed by the enemies’ and bosses’ projectiles.
