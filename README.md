@@ -3,39 +3,42 @@
 Created by: Aaron Kwan, John Chen, Eric Chen, Nick Strazis.
 
 This was a semester long project.
-pt_S 487 Project Specification
+#Project Specification
 1. Project Name: BH-STG: Bullet Hell Shooting Game & Level Interpreter
 Final project is an important component in a software design class. You will complete the project in a team environment (each team will have max 4, min 3 students, with 5 or 2-person team per instructor’s permission or recommendation). The project is to provide a platform on which you can exercise software design and decision making on software architecture.
 For this semester, your team project will be to implement a bullet hell shooting game, and its level interpreter, inspired by an indie Japanese doujin game series: Touhou Project. A sample game play could be found here: https://www.youtube.com/watch?v=-tyPdlhMLFQ
+
 The genre mostly originated from the arcade games, notable examples include
- Touhou Project (http://en.wikipedia.org/wiki/Touhou),
- Galaxian (http://en.wikipedia.org/wiki/Galaxian, https://www.youtube.com/watch?v=XhYVcwhSWjI)  Raiden: (http://en.wikipedia.org/wiki/Raiden_%28video_game%29,
+* Touhou Project (http://en.wikipedia.org/wiki/Touhou),
+* Galaxian (http://en.wikipedia.org/wiki/Galaxian, https://www.youtube.com/watch?v=XhYVcwhSWjI)  Raiden: (http://en.wikipedia.org/wiki/Raiden_%28video_game%29,
 https://www.youtube.com/watch?v=Xe_5zxXiQAs )
+
 Bullet hell is also a key element in one of the most popular recent games: Undertale.
 The basic concept of such games is quite simple: the player controls a character/spaceship, which shoots bullets/lasers at enemies to advance the game. Meanwhile, the player has to move and dodge a “large” number of enemies and the projectiles they fire. These projectiles sometimes form certain patterns to increase the difficulty and/or aesthetics of the game. At the end of each stage (or sometimes in the middle), the player will fight a “boss” who is usually more powerful and have more elaborated attacks. Other mechanisms (bomb, scores, power ups, etc.) are often available in such games as well.
 The end goal for the project is to design and implement such a stand-alone desktop game and its corresponding level interpreter. There are three major deliverables for this project throughout the semester. This document explains the scope of this project, what is required for each deliverable, and other necessary details. Note that some requirements of the deliverables are intentionally withheld temporarily in this document. This is to encourage you to really think long and hard about your design before coding, and so that you might experience the challenges when facing changing requirements. These additional details will be announced in the “Course Announcements” forum once the previous deliverable is due.
-2. Overall Project Instructions
-1. All codes should be submitted to github.eecs.wsu.edu. Please see Assignment 1 for details on
+
+##Overall Project Instructions
+* All codes should be submitted to github.eecs.wsu.edu. Please see Assignment 1 for details on
 setting up your EECS git account. Your team should collaborate via git for team coding as well. DO NOT make the following activities regular occurrences within your team: email/message your codes back and forth; using a flash drive to carry the code; executable only on one team member’s computer and that computer only; other similar methods.
 You should make learning git one of your main goals for this course. Occasional offline “copy and pasting” is of course fine, but don’t make that into a habit.
 For the same reason, I will not accept zip files of a solution/project submitted via email or other methods. Make sure your project in your github repository is runnable (with necessary libraries installed) on a normal PC with Windows (10 is preferred) after a fresh clone, and include detailed Readme file with instructions on how to run the program.
 
-2. You should use C# .NET or Java as your programming language. Both languages work well with what we are trying to cover in this course. In particular, if you are using C#, please start researching on XNA or MonoGame as your underlying game engine; if you are using Java, do the same for libgdx. All team members should get familiar with your choice of framework as soon as possible, as your first deliverable due date will be right upon you. Unity is NOT allowed. Other frameworks while not forbidden, but are not recommended. Please contact me if you would like to use some other frameworks to build the game.
-3. Important: Please note that this course is not about how to code a specific game (and definitely not about how to play the game). Therefore, we will NOT cover any specific engine-related contents AT ALL, which means you are responsible for using all resources you can find to learn about XNA/MonoGame and/or libgdx, and use them effectively to complete your project assignments. I strongly encourage using the discussion forums for such purposes if you need help and/or want to share wisdoms while learning the frameworks.
-4. Crucial: Read carefully and ask questions! In order to include as many details as possible, this specification is terribly verbose, which will likely lead to confusions and even contain unintentional mistakes. Therefore, please be sure you read the requirements very carefully for each deliverable, and post any questions you might have on the “Questions for Instructor” forum. Remember, good questions count towards your constructive posts!
-5. Demos: Throughout the semesters, I will try to schedule team meetings (via skype or even AMS video conferencing) with each team every few weeks to check up on your progress, answer all your questions, get your feedback and keep in touch with all of you personally. These meetings will be announced in the “Course Announcements”. The dead week will be used as the project demo week, including the weekend. Each team shall schedule a final demo with me during the week with everybody attending. You will demo everything you have done to me and explain your contribution.
-6. Grades: details are included below, but the overall distribution of your project grade is as follows:
+* You should use C# .NET or Java as your programming language. Both languages work well with what we are trying to cover in this course. In particular, if you are using C#, please start researching on XNA or MonoGame as your underlying game engine; if you are using Java, do the same for libgdx. All team members should get familiar with your choice of framework as soon as possible, as your first deliverable due date will be right upon you. Unity is NOT allowed. Other frameworks while not forbidden, but are not recommended. Please contact me if you would like to use some other frameworks to build the game.
+* Important: Please note that this course is not about how to code a specific game (and definitely not about how to play the game). Therefore, we will NOT cover any specific engine-related contents AT ALL, which means you are responsible for using all resources you can find to learn about XNA/MonoGame and/or libgdx, and use them effectively to complete your project assignments. I strongly encourage using the discussion forums for such purposes if you need help and/or want to share wisdoms while learning the frameworks.
+* Crucial: Read carefully and ask questions! In order to include as many details as possible, this specification is terribly verbose, which will likely lead to confusions and even contain unintentional mistakes. Therefore, please be sure you read the requirements very carefully for each deliverable, and post any questions you might have on the “Questions for Instructor” forum. Remember, good questions count towards your constructive posts!
+* Demos: Throughout the semesters, I will try to schedule team meetings (via skype or even AMS video conferencing) with each team every few weeks to check up on your progress, answer all your questions, get your feedback and keep in touch with all of you personally. These meetings will be announced in the “Course Announcements”. The dead week will be used as the project demo week, including the weekend. Each team shall schedule a final demo with me during the week with everybody attending. You will demo everything you have done to me and explain your contribution.
+* Grades: details are included below, but the overall distribution of your project grade is as follows:
 a) Deliverable 1: 20pts (+up to 10 extra pts)
 b) Deliverable 2: 40pts (+up to 5 extra pts)
 c) Deliverable 3: 40pts (+up to 15 extra pts)
 
-7. Another word on teamwork: Teamwork is a crucial skill for a software engineer, and I expect everyone taking this course to take this with utmost seriousness and a collaborative attitude. This project is by no means an easy one, therefore if one member does not apply oneself, the whole team might be negatively impacted.
+* Another word on teamwork: Teamwork is a crucial skill for a software engineer, and I expect everyone taking this course to take this with utmost seriousness and a collaborative attitude. This project is by no means an easy one, therefore if one member does not apply oneself, the whole team might be negatively impacted.
 Still, I recognize that challenges and situations do happen. Here are my suggestions and policies regarding teamwork issues:
 a) If you think you are falling behind too much, be proactive and seek help from your teammates, classmates, and me. If you still feel overwhelmed, please let your teammates and me know about it, and your decisions about the circumstance. I have had students in the past who simply stopped showing up, and refused to respond to any forms of communication attempts. It certainly did not sit well with the remaining teammates, even if they were able to pull through.
 b) If you are on the other side of the problem, finding yourself (yourselves) always have to carry the team, do most (even all) of the work constantly, also be sure to reach out to me, and we will try to work things out.
 c) While this is an asynchronous online course, since all of you are on Pullman campus, you should set a regular weekly meeting time to keep each other on the same page. Of course, I want to remind you not to do all your coding *only* when you are *physically together*. That is why we are using git – and learning the importance of appropriate good design and task division.
 I hope we don’t have to use any of these policies throughout the semester. Nevertheless, they are here to guarantee that if you work hard on the project, you should not have to worry about being treated unfairly.
-8. Project resources:
+* Project resources:
 a) Touhou 10 (the one we are basing our project on):
 http://www.theisozone.com/downloads/pc/windows-games/touhou-project-10-mountain-of- faith-english-by-ferancisco/
 Windows only. You might need certain DirectX 8.0 dlls to run the game. “th10e.exe” is the English patch of the game.
@@ -47,15 +50,15 @@ to credit them properly.
 3. Project Deliverable 1: see Course Schedule for Due Date. (20pts)
 Requirements: You need to build a playable game that is able to reproduce the gameplay shown in this video: 487-Project-SampleGamePlay.mp4
 Here are some definitions that are used in this document, with reference to the video’s timestamp.
- Player/Player Character
+* Player/Player Character
 The character/ that the player can control in the game. Appeared at the beginning at the bottom of the screen. The hitbox, which appears as a white dot in the center of the sprite when “slow speed” mode is activated (see below in required features), is much smaller than the size of the whole sprite.
- Regular Enemies
+* Regular Enemies
 Non-boss enemies. There are different variations of such enemies. They move and/or attack by firing bullets.
- Mid/Final Boss
+* Mid/Final Boss
 The Mid Boss appeared at 00:48 mark, and the Final Boss appeared at 01:30 mark. The bosses have more specific movements, and their attacks are more elaborated and complicated.
- Regular Stage
+* Regular Stage
 All gameplay outside of the mid and final boss fight.
- Mid Boss/Final Boss Fight
+* Mid Boss/Final Boss Fight
 Mid boss fight: from 00:48 to 01:15. Final boss fight: from 01:32 to the end of the video. The final boss fight has 4 stages, each of which has a different movement patterns and bullet-firing patterns.
 I. The key features required are:
 1. The player. (2pts)
@@ -126,9 +129,6 @@ IV.The features not required for Deliverable 2 are:
 3. Difficulty level. The sample video played in the “Easy” mode of Touhou, which has a total of four difficulty levels: Easy, Normal, Hard and Lunatic. I included several replay files in 487-project-sample- resources.zip. You may view them from the “Replay” option of the menu in Touhou 10 if you’vedownloaded it.
 4. Another 5pts extra are available for the teams who construct a functional menu within the game, and
 allows for basic key configurations. For instance, allowing the player to use WASG instead of arrow keys. It’s a simple function, but make sure your solution is “elegant” in your design.
-
-
-
 
 
 
